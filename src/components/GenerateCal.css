@@ -1,0 +1,35 @@
+
+
+.calendar2 {
+    padding:10px;
+    max-width: 200px;
+    max-height:200px;
+    
+}
+.dates2 {
+    padding:15px 0px;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+
+
+.days2 {
+    display:flex;
+}
+.days2 > div {
+    color:var(--red);
+    width: calc(90%/7);
+}
+.dates2 > div {
+    width: calc(90%/7);
+    height: 20px;
+    flex-shrink:0;
+    color:black;
+}
+
+.dates2 .today {
+    border-radius:10px;
+    color:red;
+    background:yellow;
+}

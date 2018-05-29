@@ -1,0 +1,25 @@
+.box{
+    background:var(--red);
+    display:flex;
+    flex-direction:column;
+    height:70vh;
+    min-width:30vw;
+    width: 80%;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.box .top{
+    display:flex;
+    justify-content:center;
+}
+
+.box .bottom{
+    background:var(--yellow);
+    flex-grow:1;
+    display:flex;
+    justify-content:center;
+}
+.box button{
+    height:20px;
+}

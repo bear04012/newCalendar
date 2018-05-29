@@ -1,0 +1,42 @@
+.month {
+    padding:10px;
+}
+
+.header {
+    width:70vw;
+    display:flex;
+    justify-content:space-between;
+}
+
+.header .space {
+    flex-grow:1;
+}
+.dates {
+    padding:15px 0px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.dates > div {
+    width: calc(100%/7);
+    height: 50px;
+    flex-shrink:0;
+    background:var(--emerald);
+    border: 1px solid white;
+    color:white;
+}
+
+  
+.days {
+    padding:15px 0px;
+    display:flex;
+    color:var(--blue);
+}
+.days > div {
+    width: calc(100%/7);
+}
+
+.dates .today {
+    color:red;
+    background:yellow;
+}

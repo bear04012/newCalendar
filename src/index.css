@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+:root{
+  --blue:#247BA0;
+  --green:#70C1B3;
+  --emerald:#B2DBBF;
+  --yellow:#F3FFBD;
+  --red:#FF1654;
+
+  
+}
+
+* {
+  
+  box-sizing: border-box;
+}

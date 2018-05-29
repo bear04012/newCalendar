@@ -1,0 +1,54 @@
+
+.week {
+    height:60vh;
+    width:100vw;
+    overflow:scroll;
+}
+.header {
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.header .format {
+    font-size:2em;
+    color:var(--red);
+}
+.header .space {
+    flex-grow:1;
+}
+
+.days > div {
+    width: calc(100%/7);
+}
+
+
+.day2 {
+    display: flex;
+    justify-content:center;
+    border:0.5px solid black;
+    height:57vh;
+}
+
+.today2 {
+    display:flex;
+    color: var(--red);
+    justify-content:center;
+    border:0.5px solid black;
+    
+}
+
+.days .times {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+
+.timelines2 {
+    border-bottom:1px solid grey;
+    border-inline-end-width: 100vw;
+    font-size:0.7em;
+    color:grey;
+    width:80vw;
+}

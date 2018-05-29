@@ -1,0 +1,53 @@
+
+.day {
+    width:100vw;
+    height:60vh;
+    display:flex;
+}
+
+.day .daily {
+    padding:10px;
+    background:var(--yellow);
+    flex-grow:1;
+    overflow:scroll;
+
+}
+
+.day .daily .format{
+    font-size:2em;
+    color:var(--red);
+}
+
+.day .daily .all-day {
+    padding:5px 10px;
+    font-size:0.7em;
+    color:var(--blue);
+    border:1px solid var(--blue);
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid var(--blue);
+}
+
+.timelines {
+    border-top:1px solid var(--blue);
+    font-size:0.7em;
+    color:var(--blue);
+}
+
+.day .daily div{
+    padding:8px;
+}
+
+.day .info {
+    padding:10px 0px;
+    height:100vh;
+    flex-grow:0.1;
+    background:var(--green);
+    display:flex;
+    justify-content:space-between;
+
+}
+.day .info .buttons{
+    padding:10px 0px;
+
+}

@@ -1,0 +1,28 @@
+.year {
+    height:60vh;
+    width:100vw;
+    padding:10px;
+    overflow:scroll;
+}
+
+.year .header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.year .header .space {
+    flex-grow:1;
+}
+
+.year .months {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.year .months > div {
+    width: calc(100%/4);
+}
+
+.year .months .month{
+    color:var(--blue);
+}
